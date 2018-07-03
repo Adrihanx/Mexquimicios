@@ -24,9 +24,11 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="vendor/dynatable/jquery.dynatable.css">
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="vendor/dynatable/jquery.dynatable.js"></script>
 
   <!-- =======================================================
     Theme Name: Reveal
