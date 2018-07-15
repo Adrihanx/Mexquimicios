@@ -7,16 +7,45 @@ namespace Composer\Autoload;
 class ComposerStaticInit056e9be74380d4f45e0233655b075014
 {
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'ZxcvbnPhp\\' => 10,
+        ),
         'S' => 
         array (
             'Spipu\\Html2Pdf\\' => 15,
         ),
+        'R' => 
+        array (
+            'ReCaptcha\\' => 10,
+        ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
+            'PHPAuth\\' => 8,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'ZxcvbnPhp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bjeavons/zxcvbn-php/src',
+        ),
         'Spipu\\Html2Pdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/spipu/html2pdf/src',
+        ),
+        'ReCaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/recaptcha/src/ReCaptcha',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'PHPAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpauth/phpauth',
         ),
     );
 
